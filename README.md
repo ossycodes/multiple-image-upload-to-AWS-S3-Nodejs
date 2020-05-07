@@ -16,11 +16,14 @@ const s3 = new aws.S3({
 	Bucket: 'yourbucketname'
 });
 
+Ensure the field name for file is profileImage
+(eg req.file === profileImage)
+
 ```
 
 ## Installation Instructions :wrench:
 
-1. Clone the repo using `git clone https://github.com/ossycodes/multiple-image-upload-to-AWS-S3-Nodejs`
+1. Clone the repo using `git clone https://github.com/ossycodes/multiple-image-upload-to-AWS-S3-Nodejs.git`
 2. `cd multiple-image-upload-to-AWS-S3-Nodejs`
 3. `npm install`
 4. `npm start`
